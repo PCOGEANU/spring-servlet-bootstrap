@@ -27,6 +27,7 @@ xsi:schemaLocation="
    </bean>
    
    <mvc:resources mapping="/pages/**" location="/WEB-INF/pages/" />
+   <!--  mvc:resources mapping="/webjars/**" location="classpath:/META-INF/resources/webjars/"/ -->
    <mvc:resources mapping="/webjars/**" location="/webjars/"/>
    
 </beans>
